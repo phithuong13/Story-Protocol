@@ -9,7 +9,7 @@ const main = async function () {
     const config: StoryConfig = {
         account: account,
         transport: http(RPCProviderUrl),
-        chainId: 'iliad',
+        chainId: 'odyssey',
     }
     const client = StoryClient.newClient(config)
 
@@ -23,8 +23,8 @@ const main = async function () {
     // you can use it in SPG functions.
     //
     const newCollection = await client.nftClient.createNFTCollection({
-        name: 'ZunXBT',
-        symbol: 'ZUN',
+        name: 'Jonny8388',
+        symbol: 'JON',
         txOptions: { waitForTransaction: true },
     })
 
